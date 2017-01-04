@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8">
+
+      <title>Form validation jQuery</title>
+      <style type="text/css">
+          form {
+              font-size: 20px;
+              color: red;
+          }
+      </style>
+      <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
+  </head>
+
+  <body>
+      <form>
+          <input name="name" id="myname" placeholder="name" required />
+          <br/>
+          <br/>
+          <input name="email" id="myemail" placeholder="email" required/>
+          <br/>
+          <br/>
+          <input id="mydate" name="date" placeholder="date" required/>
+          <br/>
+          <br/>
+          <input name="ip" id="myip" placeholder="your ip" required/>
+          <br/>
+          <br/>
+          <input type="submit" value="Send" />
+      </form>
+      <script src="script.js"></script>
+  </body>
+
+</html>
